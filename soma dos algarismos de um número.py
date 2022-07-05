@@ -6,7 +6,6 @@ while i > 0 :
     resto = int(número) % 10
     soma = soma + resto
     inteiro = int(número) // 10
-    resto = inteiro
-    número = resto
+    número = inteiro
     i = i - 1
 print(soma)
